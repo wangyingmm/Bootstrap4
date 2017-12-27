@@ -71,14 +71,16 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza
+                            <span class="badge badge-danger">HOT</span>
+                            <span class="badge badge-pill badge-default">$4.99</span>
+                        </h2>
                         <p class="hidden-xs-down">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives,
                             ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
@@ -108,6 +110,57 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="card col-12 col-sm-8">
+                <h3 class="card-header card-warning text-white">Reserve a Table</h3>
+                <div class="card-block">
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-md-10" id="guestNumber">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 1</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 2</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 3</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 4</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 5</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio"> 6</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-2 col-form-label">Date and Time</label>
+                            <div class="input-group col-md-4">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                                <input id="date" type="text" class="form-control" name="date" placeholder="Date">
+                            </div>
+                            <div class="input-group col-md-4">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-clock-o"></i>
+                                </span>
+                                <input id="time" type="text" class="form-control" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-warning">Reserve</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-9">
+
             </div>
         </div>
     </div>
