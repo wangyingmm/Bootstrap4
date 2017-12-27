@@ -59,7 +59,9 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-3 align-self-center">
-                    <a href="#reservTable" type="submit" class="btn-sm btn-block btn-warning align-self-center" style="text-align:center">Reserve Table</a>
+                    <!-- <a href="#reservTable" type="button" class="btn-sm btn-block btn-warning align-self-center" style="text-align:center">Reserve Table</a> -->
+                    <a href="#reservTable" type="button" class="btn btn-warning btn-sm btn-block" data-toggle="tooltip" data-html="true" title="Or Call us at  <br><strong>+852 12345678</strong>"
+                        data-placement="bottom" href="#reserveform">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -239,6 +241,10 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
-
 </html>
